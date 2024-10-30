@@ -1,0 +1,118 @@
+- type: randomHumanoidSettings
+  id: ERTSecuritySirena
+  speciesBlacklist: [ Arachnid, Diona, Dwarf, Moth, Reptilian, SlimePerson]
+  randomizeName: false
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: Боец отряда быстрого регирования "Рэд"
+      description: ghost-role-information-ertsecuritysirena-description
+      requirements:
+        - !type:DepartmentTimeRequirement
+          department: Security
+          time: 18000
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ ERTSecurityGearEVA ]
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidAppearance
+      randomizeName: false
+
+- type: randomHumanoidSettings
+  id: ERTSecurityAmberSirena
+  speciesBlacklist: [ Arachnid, Diona, Dwarf, Moth, Reptilian, SlimePerson]
+  randomizeName: false
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: Боец отряда быстрого регирования "Эмбер"
+      description: ghost-role-information-ertsecuritysirena-description
+      requirements:
+        - !type:DepartmentTimeRequirement
+          department: Security
+          time: 18000
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ ERTSecurityGear ]
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidAppearance
+      randomizeName: false
+
+- type: randomHumanoidSettings
+  id: ERTSecurityGammaSirena
+  speciesBlacklist: [ Arachnid, Diona, Dwarf, Moth, Reptilian, SlimePerson]
+  randomizeName: false
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: Боец отряда быстрого регирования "Гамма"
+      description: ghost-role-information-ertsecuritysirena-description
+      requirements:
+        - !type:DepartmentTimeRequirement
+          department: Security
+          time: 18000
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ ERTSecurityGearEVA ]
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidAppearance
+      randomizeName: false
+
+- type: entity
+  id: RandomHumanoidSpawnerERTSecuritySirena
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertsecurityeva
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: ERTSecuritySirena
+
+- type: entity
+  id: RandomHumanoidSpawnerERTSecurityGammaSirena
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertsecurityeva
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: ERTSecurityGammaSirena
+
+- type: entity
+  id: RandomHumanoidSpawnerERTSecurityAmberSirena
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertsecurityeva
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: ERTSecurityAmberSirena
+
+- type: entity
+  id: SpawnerERTSecuritySirena
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+  - type: ConditionalSpawner
+    prototypes:
+      - RandomHumanoidSpawnerERTSecuritySirena

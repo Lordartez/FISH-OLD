@@ -1,0 +1,7 @@
+contact_links:
+  - name: Предложение
+    url: https://discord.fishstation.ru
+    about: Свои предложения можете оставлять в соответствующем канале Discord.
+  - name: Сообщить об уязвимости
+    url: https://discord.fishstation.ru
+    about: Пожалуйста, сообщайте о серьезных эксплойтах и уязвимостях безопасности k3ywarrior в Discord.

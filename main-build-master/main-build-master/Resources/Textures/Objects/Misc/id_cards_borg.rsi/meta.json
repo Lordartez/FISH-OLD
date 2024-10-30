@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Mosley azazazaz",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "default"
+    },
+    {
+      "name": "idsecurity"
+    },
+    {
+      "name": "idservice"
+    },
+    {
+      "name": "idert"
+    },
+    {
+      "name": "idborg"
+    },
+    {
+      "name": "idmedical"
+    },
+    {
+      "name": "idengineer"
+    },
+    {
+      "name": "idminer"
+    },
+    {
+      "name": "idjanitor"
+    }
+  ]
+}

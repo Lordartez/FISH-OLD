@@ -1,0 +1,71 @@
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskGasChameleon
+  name: gas mask
+  description: A face-covering mask that can be connected to an air supply.
+  suffix: Chameleon
+  components:
+    - type: Tag
+      tags: # ignore "WhitelistChameleon" tag
+        - HidesNose
+    - type: Sprite
+      sprite: Clothing/Mask/gas.rsi
+    - type: Clothing
+      sprite: Clothing/Mask/gas.rsi
+    - type: ChameleonClothing
+      slot: [mask]
+      default: ClothingMaskGas
+    - type: BreathMask
+    - type: IdentityBlocker # need that for default ClothingMaskGas
+    - type: UserInterface
+      interfaces:
+        - key: enum.ChameleonUiKey.Key
+          type: ChameleonBoundUserInterface
+# Corvax-HiddenDesc-Start
+    - type: HiddenDescription
+      entries:
+      - label: corvax-hidden-desc-Chameleon-syndicate
+        whitelistMind:
+          components:
+            - TraitorRole
+            - NukeOperative
+      - label: corvax-hidden-desc-Chameleon-research
+        jobRequired:
+          - ResearchAssistant
+          - ResearchDirector
+          - Scientist
+          - Borg
+# Corvax-HiddenDesc-End
+
+- type: entity
+  parent: ClothingMaskGasChameleon
+  id: ClothingMaskGasVoiceChameleon
+  suffix: Voice Mask, Chameleon
+  components:
+    - type: VoiceMasker
+# Corvax-HiddenDesc-Start
+    - type: HiddenDescription
+      entries:
+      - label: corvax-hidden-desc-Chameleon-syndicate
+        whitelistMind:
+          components:
+            - TraitorRole
+            - NukeOperative
+      - label: corvax-hidden-desc-VoiceMasker-syndicate
+        whitelistMind:
+          components:
+            - TraitorRole
+            - NukeOperative
+      - label: corvax-hidden-desc-Chameleon-research
+        jobRequired:
+          - ResearchAssistant
+          - ResearchDirector
+          - Scientist
+          - Borg
+      - label: corvax-hidden-desc-VoiceMasker-research
+        jobRequired:
+          - ResearchAssistant
+          - ResearchDirector
+          - Scientist
+          - Borg
+# Corvax-HiddenDesc-End

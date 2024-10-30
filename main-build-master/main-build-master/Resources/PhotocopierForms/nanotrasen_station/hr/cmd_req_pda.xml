@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>cmd_req_pda</FormId>
+  <PrototypeId>PaperNtForm</PrototypeId>
+  <EntityName>форма NT-CMD-REQ</EntityName>
+  <PhotocopierTitle>Заявление на получение КПК</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№ХХХ-CMD-REQ[/bold]
+[head=2]Заявление на получение КПК[/head]
+
+[italic]Дата: -/-/3024 [/italic]
+
+[bold]Заявитель:[/bold] 
+[bold]Должность:[/bold] 
+
+Прошу выдать мне новую КПК в связи с (указать: утерей/кражей) старого КПК
+При нахождении старого КПК обязуюсь его сдать
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

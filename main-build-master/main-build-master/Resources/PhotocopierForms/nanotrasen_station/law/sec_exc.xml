@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>sec_exc</FormId>
+  <PrototypeId>PaperNtFormLaw</PrototypeId>
+  <EntityName>форма NT-LAW-SER</EntityName>
+  <PhotocopierTitle>Приказ о казни</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-LAW-SER[/bold]
+[head=2]Приказ о казни[/head]
+
+[italic]Дата: -/-/3024[/italic]
+
+Представленный к казни:
+Нарушения:
+
+Приговор окончательный и обжалованию не подлежит.
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

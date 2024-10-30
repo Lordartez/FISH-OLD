@@ -1,0 +1,508 @@
+- type: entity
+  id: BorgChassisGeneric
+  parent: BaseBorgChassisNT
+  components:
+  - type: Sprite
+    layers:
+    - state: robot
+    - state: robot_e_r
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: robot_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: BorgChassis
+    maxModules: 6
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+    hasMindState: robot_e
+    noMindState: robot_e_r
+  - type: Loadout
+    prototypes: [ BorgGear ]
+  - type: Construction
+    node: cyborg
+  - type: Speech
+    speechVerb: Robotic
+  - type: TTS # Corvax-TTS
+    voice: Glados
+
+- type: entity
+  id: BorgChassisMining
+  parent: BaseBorgChassisNT
+  name: salvage cyborg
+  components:
+  - type: Sprite
+    layers:
+    - state: miner
+      map: ["movement"]
+    - state: miner_e_r
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: miner_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: SpriteMovement
+    movementLayers:
+      movement:
+        state: miner_moving
+    noMovementLayers:
+      movement:
+        state: miner
+  - type: BorgChassis
+    maxModules: 4
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+      - BorgModuleCargo
+    hasMindState: miner_e
+    noMindState: miner_e_r
+  - type: Construction
+    node: mining
+  - type: Loadout
+    prototypes: [ MiningBorgGear ]
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Supply
+    - Binary
+    - Common
+    - Science
+  - type: ActiveRadio
+    channels:
+    - Supply
+    - Binary
+    - Common
+    - Science
+  - type: AccessReader
+    access: [["Cargo"], ["Salvage"], ["Command"], ["Research"]]
+  - type: Inventory
+    templateId: borgTall
+
+- type: entity
+  id: BorgChassisEngineer
+  parent: BaseBorgChassisNT
+  name: engineer cyborg
+  components:
+  - type: Sprite
+    layers:
+    - state: engineer
+    - state: engineer_e_r
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: engineer_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: BorgChassis
+    maxModules: 4
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+      - BorgModuleEngineering
+    hasMindState: engineer_e
+    noMindState: engineer_e_r
+  - type: Construction
+    node: engineer
+  - type: Loadout
+    prototypes: [ EngineerBorgGear ]
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Engineering
+    - Binary
+    - Common
+    - Science
+  - type: ActiveRadio
+    channels:
+    - Engineering
+    - Binary
+    - Common
+    - Science
+  - type: AccessReader
+    access: [["Engineering"], ["Command"], ["Research"]]
+  - type: Inventory
+    templateId: borgShort
+
+- type: entity
+  id: BorgChassisJanitor
+  parent: BaseBorgChassisNT
+  name: janitor cyborg
+  components:
+  - type: Sprite
+    layers:
+    - state: janitor
+      map: ["movement"]
+    - state: janitor_e_r
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: janitor_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: SpriteMovement
+    movementLayers:
+      movement:
+        state: janitor_moving
+    noMovementLayers:
+      movement:
+        state: janitor
+  - type: BorgChassis
+    maxModules: 4
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+      - BorgModuleJanitor
+    hasMindState: janitor_e
+    noMindState: janitor_e_r
+  - type: Construction
+    node: janitor
+  - type: Loadout
+    prototypes: [ JanitorBorgGear ]
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Service
+    - Binary
+    - Common
+    - Science
+  - type: ActiveRadio
+    channels:
+    - Service
+    - Binary
+    - Common
+    - Science
+  - type: AccessReader
+    access: [["Service"], ["Command"], ["Research"]]
+  - type: Inventory
+    templateId: borgShort
+
+- type: entity
+  id: BorgChassisMedical
+  parent: BaseBorgChassisNT
+  name: medical cyborg
+  components:
+  - type: Sprite
+    layers:
+    - state: medical
+      map: ["movement"]
+    - state: medical_e_r
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: medical_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: SpriteMovement
+    movementLayers:
+      movement:
+        state: medical_moving
+    noMovementLayers:
+      movement:
+        state: medical
+  - type: BorgChassis
+    maxModules: 4
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+      - BorgModuleMedical
+    hasMindState: medical_e
+    noMindState: medical_e_r
+  - type: Construction
+    node: medical
+  - type: Loadout
+    prototypes: [ MedicalBorgGear ]
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Medical
+    - Binary
+    - Common
+    - Science
+  - type: ActiveRadio
+    channels:
+    - Medical
+    - Binary
+    - Common
+    - Science
+  - type: AccessReader
+    access: [["Medical"], ["Command"], ["Research"]]
+  - type: Inventory
+    templateId: borgTall
+  - type: TTS # Corvax-TTS
+    voice: Glados
+    effect: ghost
+
+- type: entity
+  id: BorgChassisService
+  parent: BaseBorgChassisNT
+  name: service cyborg
+  components:
+  - type: Sprite
+    layers:
+    - state: service
+    - state: service_e_r
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: service_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: BorgChassis
+    maxModules: 4
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+      - BorgModuleService
+    hasMindState: service_e
+    noMindState: service_e_r
+  - type: Construction
+    node: service
+  - type: Loadout
+    prototypes: [ ServiceBorgGear ]
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Service
+    - Binary
+    - Common
+    - Science
+  - type: ActiveRadio
+    channels:
+    - Service
+    - Binary
+    - Common
+    - Science
+  - type: AccessReader
+    access: [["Service"], ["Command"], ["Research"]]
+  - type: Inventory
+    templateId: borgTall
+
+- type: entity
+  id: BorgChassisSyndicateAssault
+  parent: BaseBorgChassisSyndicate
+  name: syndicate assault cyborg
+  description: A lean, mean killing machine with access to a variety of deadly modules.
+  components:
+    - type: Sprite
+      layers:
+        - state: synd_sec
+        - state: synd_sec_e
+          map: ["enum.BorgVisualLayers.Light"]
+          shader: unshaded
+          visible: false
+        - state: synd_sec_l
+          shader: unshaded
+          map: ["light"]
+          visible: false
+    - type: PointLight
+      color: "#dd200b"
+    - type: BorgChassis
+      maxModules: 3
+      moduleWhitelist:
+        tags:
+          - BorgModuleGeneric
+          - BorgModuleSyndicate
+          - BorgModuleSyndicateAssault
+      hasMindState: synd_sec_e
+      noMindState: synd_sec
+    - type: FlashImmunity
+    - type: Construction
+      node: syndicateassault
+    - type: Damageable
+      damageModifierSet: SyndieAssaultBorg
+
+- type: entity
+  id: BorgChassisSyndicateMedical
+  parent: BaseBorgChassisSyndicate
+  name: syndicate medical cyborg
+  description: A combat medical cyborg. Has limited offensive potential, but makes more than up for it with its support capabilities.
+  components:
+    - type: Sprite
+      layers:
+        - state: synd_medical
+        - state: synd_medical_e
+          map: ["enum.BorgVisualLayers.Light"]
+          shader: unshaded
+          visible: false
+        - state: synd_medical_l
+          shader: unshaded
+          map: ["light"]
+          visible: false
+    - type: BorgChassis
+      maxModules: 3
+      moduleWhitelist:
+        tags:
+          - BorgModuleGeneric
+          - BorgModuleMedical
+          - BorgModuleSyndicate
+      hasMindState: synd_medical_e
+      noMindState: synd_medical
+    - type: Construction
+      node: syndicatemedical
+
+- type: entity
+  id: BorgChassisSyndicateSaboteur
+  parent: BaseBorgChassisSyndicate
+  name: syndicate saboteur cyborg
+  description: A streamlined engineering cyborg, equipped with covert modules. Its chameleon projector lets it disguise itself as a Nanotrasen cyborg.
+  components:
+    - type: Sprite
+      layers:
+        - state: synd_engi
+        - state: synd_engi_e
+          map: ["enum.BorgVisualLayers.Light"]
+          shader: unshaded
+          visible: false
+        - state: synd_engi_l
+          shader: unshaded
+          map: ["light"]
+          visible: false
+    - type: BorgChassis
+      maxModules: 3
+      moduleWhitelist:
+        tags:
+          - BorgModuleGeneric
+          - BorgModuleEngineering
+          - BorgModuleSyndicate
+      hasMindState: synd_engi_e
+      noMindState: synd_engi
+    - type: Construction
+      node: syndicatesaboteur
+
+#Mosley
+- type: entity
+  id: BorgChassisSecurity
+  parent: BaseBorgChassisSecurity
+  name: security cyborg
+  components:
+  - type: Sprite
+    layers:
+    - state: sec
+    - state: sec_e
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: sec_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: BorgChassis
+    maxModules: 2
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+      - BorgModuleSecurity
+    hasMindState: sec_e
+    noMindState: sec_e_r
+  - type: Damageable
+    damageModifierSet: SecurityBorg
+  - type: Construction
+    node: security
+  - type: Loadout
+    prototypes: [ SecurityBorgGear ]
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Security
+    - Binary
+    - Common
+    - Science
+  - type: ActiveRadio
+    channels:
+    - Security
+    - Binary
+    - Common
+    - Science
+  - type: FlashImmunity
+  - type: AccessReader
+    access: [["Security"], ["Command"], ["Research"]]
+  - type: Inventory
+    templateId: borgTall
+
+# ОБР
+
+- type: entity
+  id: BorgChassisERT
+  parent: BaseBorgChassisNT
+  name: Боевой киборг ОБР
+  description: Боевой киборг НТ, разработанный для поддержки ОБР в выполнении боевых задач.
+  components:
+  - type: FlashImmunity
+  - type: ShowSecurityIcons
+  - type: GhostRole
+    name: ghost-role-information-ertborg-name
+    description: ghost-role-information-ertborg-description
+    requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 18000
+    makeSentient: true
+    allowMovement: true
+    rules: Подчиняйтесь ОБР и Центральному Командованию.
+  - type: GhostTakeoverAvailable
+  - type: Sprite
+    layers:
+    - state: ert
+    - state: ert_e_r
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: ert_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: RandomMetadata
+    nameSegments:
+    - BorgNamesERT
+  - type: BorgChassis
+    maxModules: 4
+    moduleWhitelist:
+      tags:
+      - BorgModuleERT
+    hasMindState: sec_e
+    noMindState: sec_e_r
+  - type: Damageable
+    damageModifierSet: ERTBorg
+  - type: Construction
+    node: ertcombat
+  - type: Loadout
+    prototypes: [ ERTBorgGear ]
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Security
+    - Binary
+    - Common
+    - CentCom
+  - type: ActiveRadio
+    channels:
+    - Security
+    - Binary
+    - Common
+    - CentCom
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - CentralCommand
+  - type: SiliconLawProvider
+    laws: ERTStatic
+  - type: Inventory
+    templateId: borgTall
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - CanPilot
+    - EmagImmune
+
+- type: dataset
+  id: BorgNamesERT
+  values:
+  - Шварц
+  - Адам
+  - Морган
+  - Систэм
+  - Смит
+  - Логан

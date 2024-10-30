@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>cmd_qlf</FormId>
+  <PrototypeId>PaperNtFormCmd</PrototypeId>
+  <EntityName>форма NT-CMD-CER</EntityName>
+  <PhotocopierTitle>Сертификат о повышении квалификации</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№ХХХ-CMD-CER[/bold]
+[head=2]Сертификат о повышении квалификации[/head]
+
+[italic]Дата: -/-/3024 [/italic]
+
+Я, (ваше имя фамилия), в должности Главы (указать отдел), после проведения образовательного курса и аттестации заявляю, что сотрудник (имя фамилия) в должности (должность сотрудника)
+Овладел навыком(ами):
+
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

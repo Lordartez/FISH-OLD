@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>sup_ord_wep</FormId>
+  <PrototypeId>PaperNtFormCargo</PrototypeId>
+  <EntityName>форма NT-№XXX-XXX-SUP-ORD</EntityName>
+  <PhotocopierTitle>Заказ оружия</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-XXX-SUP-ORD[/bold]
+[head=2] Заказ оружия [/head]
+Дата: 30/1/3024
+Уполномоченное лицо:
+Должность уполномоченного лица:
+(ГСБ/Смотритель/Капитан)
+Прошу оформить заказ на следующее вооружение:
+По причине:
+Заявитель несет полную юридическую ответственность оборот заказанного вооружения. Заявитель обязуется принять заказ в отделе карго, описать вооружение и совершить его оборот по СРП кода станции, объявленного во время получения заказа.
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>rnd_ror</FormId>
+  <PrototypeId>PaperNtFormSci</PrototypeId>
+  <EntityName>форма NT-RND-REP</EntityName>
+  <PhotocopierTitle>Отчёт об изучении предмета</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-RND-REP[/bold]
+[head=2]Отчет об изучении предмета[/head]
+
+Дата: -/-/3024
+Уполномоченное лицо:
+Должность уполномоченного лица:
+
+Внешний вид предмета:
+Скрытые свойства:
+Классификация предмета:
+
+[italic]Место для печатей - Научный руководитель[/italic]]]></Content>
+</Form>

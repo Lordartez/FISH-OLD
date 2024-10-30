@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>cmd_comp</FormId>
+  <PrototypeId>PaperNtFormLaw</PrototypeId>
+  <EntityName>форма NT-LAW-INT</EntityName>
+  <PhotocopierTitle>Жалоба</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-LAW-INT[/bold]
+[head=2]Жалоба[/head]
+
+[italic]Дата:-/-/3024[/italic]
+
+Заявитель:
+Текущая должность заявителя:
+
+Предмет жалобы: (укажите на что/кого вы жалуетесь)
+Обстоятельства: (укажите подробные обстоятельства произошедшего)
+Жалоба рассмотрена: (имя и фамилия рассмотревшего)
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

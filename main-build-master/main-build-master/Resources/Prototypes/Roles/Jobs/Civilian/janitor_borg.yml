@@ -1,0 +1,12 @@
+- type: job
+  id: JanitorBorg
+  name: job-name-janitorborg
+  description: job-description-janitorborg
+  playTimeTracker: JobJanitorBorg
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 54000 #15 hrs # fish-station-RoleTime
+  canBeAntag: false
+  icon: JobIconJanitorBorg
+  supervisors: job-supervisors-service
+  jobEntity: PlayerJanitorBorgGeneric

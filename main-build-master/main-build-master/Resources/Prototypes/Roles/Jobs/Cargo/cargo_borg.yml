@@ -1,0 +1,15 @@
+- type: job
+  id: CargoBorg
+  name: job-name-cargoborg
+  description: job-description-cargoborg
+  playTimeTracker: JobCargoBorg
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 54000 #15 hrs # fish-station-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Cargo
+      time: 36000
+  canBeAntag: false
+  icon: JobIconCargoBorg
+  supervisors: job-supervisors-cargo
+  jobEntity: PlayerCargoBorgGeneric

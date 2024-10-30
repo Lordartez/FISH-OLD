@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>cmd_dsc</FormId>
+  <PrototypeId>PaperNtFormCmd</PrototypeId>
+  <EntityName>форма NT-CMD-DCR</EntityName>
+  <PhotocopierTitle>Приказ об увольнении</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№ХХХ-CMD-DCR[/bold]
+[head=2]Приказ об увольнении[/head]
+
+[italic]Дата: -/-/3024 [/italic]
+
+Уполномоченное лицо:
+Должность уполномоченного лица:
+
+Я, увольняю сотрудника:
+По причине:
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

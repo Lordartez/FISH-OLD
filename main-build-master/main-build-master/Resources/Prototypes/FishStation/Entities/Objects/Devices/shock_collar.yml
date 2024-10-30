@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ShockCollar
+  name: shock collar
+  descripton: shock collar
+  components:
+   - type: Sprite
+     sprite: FishStation/Clothing/Neck/Misc/shock.rsi
+   - type: Clothing
+     sprite: FishStation/Clothing/Neck/Misc/shock.rsi
+   - type: ShockCollar
+   - type: TriggerOnSignal
+   - type: DeviceLinkSink
+     ports:
+        - Trigger
+   - type: UseDelay
+     delay: 6

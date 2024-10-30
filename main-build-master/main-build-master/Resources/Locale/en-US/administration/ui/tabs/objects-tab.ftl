@@ -1,0 +1,1 @@
+administration-ui-objects-tab-objects-type = Objects Type:

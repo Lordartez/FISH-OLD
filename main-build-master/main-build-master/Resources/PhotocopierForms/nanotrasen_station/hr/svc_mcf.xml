@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>svc_mcf</FormId>
+  <PrototypeId>PaperNtForm</PrototypeId>
+  <EntityName>форма NT-CMD-DCR</EntityName>
+  <PhotocopierTitle>Свидетельство о заключении брака</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-CMD-DCR[/bold]
+[head=2]Свидетельство о заключении брака[/head]
+
+Дата: -/-/3024
+
+Я, (Имя Фамилия), в должности (Священник или Капитан), заключаю брак между (Имя Фамилия) и (Имя Фамилия).
+После заключения брака присвоены фамилии:
+Мужу -
+Жене -
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

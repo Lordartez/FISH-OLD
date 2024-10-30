@@ -1,0 +1,49 @@
+- type: randomHumanoidSettings
+  id: ERTJanitorSirena
+  speciesBlacklist: [ Arachnid, Diona, Dwarf, Moth, Reptilian, SlimePerson]
+  randomizeName: false
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-ertjanitorsirena-name
+      description: ghost-role-information-ertjanitorsirena-description
+      requirements:
+        - !type:DepartmentTimeRequirement
+          department: Security
+          time: 18000
+        - !type:DepartmentTimeRequirement
+          department: Civilian
+          time: 6000
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ ERTJanitorGearEVA ]
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidAppearance
+      randomizeName: false
+
+- type: entity
+  id: RandomHumanoidSpawnerERTJanitorSirena
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertjanitoreva
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: ERTJanitorSirena
+
+- type: entity
+  id: SpawnerERTJanitorSirena
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+  - type: ConditionalSpawner
+    prototypes:
+      - RandomHumanoidSpawnerERTJanitorSirena

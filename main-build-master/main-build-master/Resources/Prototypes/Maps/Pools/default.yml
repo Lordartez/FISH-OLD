@@ -1,0 +1,12 @@
+- type: gameMapPool
+  id: DefaultMapPool
+  maps:
+  - FishAspid
+  - FishBox
+  - FishShiBox
+  - FishCluster
+  - FishDelta
+  - FishOutpost
+  - FishFland
+  - FishAvrite
+  - FishSilly

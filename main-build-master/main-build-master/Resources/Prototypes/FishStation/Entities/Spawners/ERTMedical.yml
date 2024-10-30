@@ -1,0 +1,99 @@
+- type: randomHumanoidSettings
+  id: ERTMedicalSirena
+  speciesBlacklist: [ Arachnid, Diona, Dwarf, Moth, Reptilian, SlimePerson]
+  randomizeName: false
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-ertmedicalsirena-name
+      description: ghost-role-information-ertmedicalsirena-description
+      requirements:
+        - !type:DepartmentTimeRequirement
+          department: Security
+          time: 18000
+        - !type:DepartmentTimeRequirement
+          department: Medical
+          time: 6000
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ ERTMedicalGearEVA ]
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidAppearance
+      randomizeName: false
+
+- type: entity
+  id: RandomHumanoidSpawnerERTMedicalSirena
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertmedicaleva
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: ERTMedicalSirena
+
+- type: entity
+  id: SpawnerERTMedicalSirena
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+  - type: ConditionalSpawner
+    prototypes:
+      - RandomHumanoidSpawnerERTMedicalSirena
+
+- type: randomHumanoidSettings
+  id: ERTMedicalSirenaAmber
+  speciesBlacklist: [ Arachnid, Diona, Dwarf, Moth, Reptilian, SlimePerson]
+  randomizeName: false
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-ertmedicalsirena-name
+      description: ghost-role-information-ertmedicalsirena-description
+      requirements:
+        - !type:DepartmentTimeRequirement
+          department: Security
+          time: 18000
+        - !type:DepartmentTimeRequirement
+          department: Medical
+          time: 6000
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ ERTMedicalGear ]
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidAppearance
+      randomizeName: false
+
+- type: entity
+  id: RandomHumanoidSpawnerERTMedicalSirenaAmber
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertmedicaleva
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: ERTMedicalSirenaAmber
+
+- type: entity
+  id: SpawnerERTMedicalSirenaAmber
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+  - type: ConditionalSpawner
+    prototypes:
+      - RandomHumanoidSpawnerERTMedicalSirenaAmber

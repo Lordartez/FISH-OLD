@@ -1,0 +1,143 @@
+- type: department
+  id: Command
+  description: department-Command-description
+  color: "#fcdf03"
+  roles:
+  - Captain
+  - CentralCommandOfficial
+  - Magistrat
+  - ChiefEngineer
+  - NanotrasenRepresentive
+  - ChiefMedicalOfficer
+  - HeadOfPersonnel
+  - HeadOfSecurity
+  - Blueshield
+  - ResearchDirector
+  - Quartermaster
+  primary: true
+  weight: 100
+
+- type: department
+  id: Cargo
+  description: department-Cargo-description
+  color: "#b88646"
+  roles:
+  - CargoTechnician
+  - Quartermaster
+  - CargoBorg
+  - SalvageSpecialist
+
+- type: department
+  id: Civilian
+  description: department-Civilian-description
+  color: "#6ca729"
+  weight: -10
+  roles:
+  - HeadOfPersonnel
+  - Bartender
+  - Borg
+  - Botanist
+  - Boxer
+  - Chaplain
+  - ServiceBorg
+  - Chef
+  - Clown
+  - Janitor
+  - JanitorBorg
+  - Librarian
+  - Mime
+  - Musician
+  - Passenger
+  - Reporter
+  - Visitor
+  - Zookeeper
+  - ServiceWorker
+
+- type: department
+  id: Juridical
+  description: department-Juridical-description
+  color: "#987654"
+  roles:
+  - Magistrat
+  - IAA
+  - Lawyer
+
+- type: department
+  id: Engineering
+  description: department-Engineering-description
+  color: "#f37746"
+  roles:
+  - AtmosphericTechnician
+  - ChiefEngineer
+  - SeniorEngineer
+  - EngineerBorg
+  - StationEngineer
+  - TechnicalAssistant
+
+- type: department
+  id: Medical
+  description: department-Medical-description
+  color: "#57b8f0"
+  roles:
+  - MedicalPathologist
+  - Chemist
+  - ChiefMedicalOfficer
+  - MedicalDoctor
+  - MedicalIntern
+  - MedicalBorg
+  - Psychologist
+  - Paramedic
+  - SeniorPhysician
+
+- type: department
+  id: Security
+  description: department-Security-description
+  color: "#dd3535"
+  weight: 20
+  roles:
+  - HeadOfSecurity
+  - Warden
+  - SeniorOfficer
+  - Detective
+  - Investigator
+  - SecurityOfficer
+  - Brigmedic
+  - SecurityBorg
+  - SecurityCadet
+  - Pilot # Corvax-Pilot
+
+- type: department
+  id: Science
+  description: department-Science-description
+  color: "#c68cfa"
+  roles:
+  - ResearchDirector
+  - SeniorResearcher
+  - Scientist
+  - ResearchAssistant
+
+- type: department
+  id: Specific
+  description: department-Specific-description
+  color: "#9FED58"
+  weight: 10
+  roles:
+  - Boxer
+  - Reporter
+  - Zookeeper
+  - Psychologist
+  primary: false
+
+- type: department
+  id: AI
+  description: department-AI-description
+  color: "#dd3535"
+  roles:
+  - ServiceBorg
+  - Borg
+  - JanitorBorg
+  - CargoBorg
+  - EngineerBorg
+  - MedicalBorg
+  - SecurityBorg
+  primary: false

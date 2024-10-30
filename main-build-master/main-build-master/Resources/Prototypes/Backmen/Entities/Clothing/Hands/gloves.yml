@@ -1,0 +1,22 @@
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesmantis
+  name: клинки богомола
+  description: Боевой кибернетический имплант. Клинки исходят из предплечья, что позволяет использовать их как оружие ближнего боя.
+  components:
+  - type: Sprite
+    sprite: FishStation/mantis.rsi
+  - type: Clothing
+    sprite: FishStation/mantis.rsi
+    equipSound: /Audio/Backmen/Weapons/Melee/bogomol/on.ogg
+    unequipSound: /Audio/Backmen/Weapons/Melee/bogomol/off.ogg
+  - type: MeleeWeapon
+    attackRate: 2
+    damage:
+      types:
+        Piercing: 15
+    soundSwing: /Audio/Backmen/Weapons/Melee/bogomol/miss.ogg
+    soundHit: /Audio/Backmen/Weapons/Melee/bogomol/hit.ogg
+  - type: StaticPrice
+    price: 1000

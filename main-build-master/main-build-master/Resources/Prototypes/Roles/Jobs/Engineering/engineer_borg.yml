@@ -1,0 +1,15 @@
+- type: job
+  id: EngineerBorg
+  name: job-name-engineerborg
+  description: job-description-engineerborg
+  playTimeTracker: JobEngineerBorg
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 54000 #15 hrs # fish-station-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 36000
+  canBeAntag: false
+  icon: JobIconEngineerBorg
+  supervisors: job-supervisors-engineering
+  jobEntity: PlayerEngineerBorgGeneric

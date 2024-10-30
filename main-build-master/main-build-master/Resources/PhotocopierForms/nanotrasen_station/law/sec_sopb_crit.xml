@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>sec_sopb_crit</FormId>
+  <PrototypeId>PaperNtFormLaw</PrototypeId>
+  <EntityName>форма NT-LEG-REP</EntityName>
+  <PhotocopierTitle>Сообщение о критическом нарушении</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-LEG-REP[/bold]
+[head=2]Заявление о нарушении  СРП членом экипажа[/head]
+
+[italic]Дата:-/-/3024[/italic]
+
+Заявляю, что член экипажа — (полное имя нарушителя), в должности (полное название должности нарушителя), нарушил один (или несколько) пунктов из Стандартных Рабочих Процедур, а именно: (перечисление нарушенных пунктов СРП)
+
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

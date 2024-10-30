@@ -1,0 +1,37 @@
+- type: job
+  id: Lawyer
+  name: job-name-lawyer
+  description: job-description-lawyer
+  playTimeTracker: JobLawyer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000
+  startingGear: LawyerGear
+  setPreference: true
+  icon: "JobIconLawyer"
+  supervisors: job-supervisors-magistrat
+  canBeAntag: false
+  access:
+  - Service
+  - Lawyer
+  - Brig
+  - Maintenance
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: LawyerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlue
+    back: ClothingBackpackLawyerFilled
+    shoes: ClothingShoesBootsLaceup
+    id: LawyerPDA
+    ears: ClothingHeadsetJuridical
+
+  inhand:
+    - BriefcaseBrownFilled
+  innerClothingSkirt: ClothingUniformJumpskirtLawyerBlue
+  satchel: ClothingBackpackSatchelLawyerFilled
+  duffelbag: ClothingBackpackDuffelLawyerFilled

@@ -1,0 +1,46 @@
+- type: randomHumanoidSettings
+  id: CBURNUnitSirena
+  speciesBlacklist: [ Arachnid, Diona, Dwarf, Moth, Reptilian, SlimePerson]
+  randomizeName: false
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-cburnunitsirena-name
+      description: ghost-role-information-cburnunitsirena-description
+      requirements:
+        - !type:DepartmentTimeRequirement
+          department: Security
+          time: 18000
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ CBURNGear ]
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidAppearance
+      randomizeName: false
+
+- type: entity
+  id: RandomHumanoidSpawnerCBURNUnitSirena
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: cburn
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: CBURNUnitSirena
+
+- type: entity
+  id: SpawnerCBURNUnitSirena
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+  - type: ConditionalSpawner
+    prototypes:
+      - RandomHumanoidSpawnerCBURNUnitSirena

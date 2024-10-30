@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>cmd_cc_srt</FormId>
+  <PrototypeId>PaperNtFormCmd</PrototypeId>
+  <EntityName>форма NT-CMD-СС-REP</EntityName>
+  <PhotocopierTitle>Отчёт о ситуации на станции</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-CMD-СС-REP[/bold]
+[head=2]Отчёт о ситуации на станции[/head]
+
+[italic]Дата: -/-/3024 [/italic]
+
+Должность уполномоченного лица:
+
+Цель:
+Статус выполнения цели:
+Код уровня угрозы:
+Причина установления кода:
+Активные угрозы:
+Потери среди экипажа:
+Общее состояние:
+Дополнительные замечания:
+
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

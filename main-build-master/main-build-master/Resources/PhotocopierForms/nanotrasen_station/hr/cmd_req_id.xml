@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>cmd_req_id</FormId>
+  <PrototypeId>PaperNtForm</PrototypeId>
+  <EntityName>форма NT-CMD-REQ</EntityName>
+  <PhotocopierTitle>Заявление на получение id-карты</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№ХХХ-CMD-REQ[/bold]
+[head=2]Заявление на получение ID-карты[/head]
+
+[italic]Дата: -/-/3024 [/italic]
+
+[bold]Заявитель:[/bold]
+[bold]Текущая должность заявителя:[/bold] 
+
+Прошу выдать мне новую id-карту в связи с (указать: утерей/кражей) старой id-карты
+Мою внешность возможно подтвердить биометрией
+Служба Безопасности уведомлена мной о факте пропажи id-карты
+При нахождении старой id-карты обязуюсь её сдать
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

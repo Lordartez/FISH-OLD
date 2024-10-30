@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>sup_ord</FormId>
+  <PrototypeId>PaperNtFormCargo</PrototypeId>
+  <EntityName>форма NT-№XXX-XXX-SUP-ORD</EntityName>
+  <PhotocopierTitle>Заказ товара</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-XXX-SUP-ORD[/bold]
+[head=2]Заказ товара[/head]
+
+Дата: -/-/3024
+Заявитель:
+Текущая должность заявителя:
+
+Товар:
+Причина:
+Место доставки:
+
+[italic]Место для печатей – Квартирмейстер[/italic]]]></Content>
+</Form>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>sec_awt</FormId>
+  <PrototypeId>PaperNtFormSec</PrototypeId>
+  <EntityName>форма NT-SEC-SER</EntityName>
+  <PhotocopierTitle>Ордер на арест</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-SEC-SER[/bold]
+[head=2]Ордер на  следственные действи[/head]
+
+Дата: -/-/3024
+Уполномоченное лицо:
+Должность уполномоченного лица:
+
+Провести (задержание и арест лиц(а)/обыск лиц(а)):
+Причина:
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

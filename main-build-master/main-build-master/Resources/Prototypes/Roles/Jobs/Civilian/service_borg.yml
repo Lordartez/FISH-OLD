@@ -1,0 +1,12 @@
+- type: job
+  id: ServiceBorg
+  name: job-name-serviceborg
+  description: job-description-serviceborg
+  playTimeTracker: JobServiceBorg
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 54000 #15 hrs # fish-station-RoleTime
+  canBeAntag: false
+  icon: JobIconServiceBorg
+  supervisors: job-supervisors-service
+  jobEntity: PlayerServiceBorgGeneric

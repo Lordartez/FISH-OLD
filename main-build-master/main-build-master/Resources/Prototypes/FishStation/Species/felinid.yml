@@ -1,0 +1,41 @@
+- type: species
+  id: Felinid
+  name: Фелинид
+  roundStart: true
+  prototype: MobFelinid
+  sprites: MobHumanSprites
+  markingLimits: MobFelinidMarkingLimits
+  dollPrototype: MobFelinidDummy
+  skinColoration: HumanToned
+  youngAge: 20
+  oldAge: 50
+  maxAge: 80
+  blockedJobs:
+    - HeadOfSecurity
+    - Warden
+- type: markingPoints
+  id: MobFelinidMarkingLimits
+  points:
+    Hair:
+      points: 1
+      required: false
+    FacialHair:
+      points: 1
+      required: false
+    Tail:
+      points: 1
+      required: true
+      defaultMarkings: [ Double_tail_pro ]
+    HeadTop:
+      points: 1
+      required: true
+      defaultMarkings: [ High_Ears, Ears_fallen, Elfian_Ears, Outer_Ears ]
+    Chest:
+      points: 1
+      required: false
+    Legs:
+      points: 2
+      required: false
+    Arms:
+      points: 2
+      required: false

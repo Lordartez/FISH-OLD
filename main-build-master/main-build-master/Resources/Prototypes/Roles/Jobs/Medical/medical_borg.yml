@@ -1,0 +1,15 @@
+- type: job
+  id: MedicalBorg
+  name: job-name-medicalborg
+  description: job-description-medicalborg
+  playTimeTracker: JobMedicalBorg
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 54000 #15 hrs # fish-station-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 36000
+  canBeAntag: false
+  icon: JobIconMedicalBorg
+  supervisors: job-supervisors-medicine
+  jobEntity: PlayerMedicalBorgGeneric

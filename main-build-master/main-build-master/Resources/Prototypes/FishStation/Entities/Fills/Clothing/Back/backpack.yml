@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackBSFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvival
+        - id: Flash

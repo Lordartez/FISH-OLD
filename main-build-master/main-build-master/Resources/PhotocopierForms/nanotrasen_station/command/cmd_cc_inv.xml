@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>cmd_cc_inv</FormId>
+  <PrototypeId>PaperNtFormCmd</PrototypeId>
+  <EntityName>форма NT-XXX-CC-INT</EntityName>
+  <PhotocopierTitle>Запрос на вызов ПЦК</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№ХХХ-XXX-CC-INT[/bold]
+[head=2]Запрос на вызов члена ЦК[/head]
+
+[italic]Дата: -/-/3024 [/italic]
+Уполномоченное лицо:
+Должность уполномоченного лица:
+
+Полная причина вызова (ПЦК):
+Прошу прибыть (Представителя Центрального Командования), я полностью отдаю отчет своим действиям и беру ответственность на себя, а также обязательства по информированию сотрудников и глав станции.
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>sup_sitrep_ptw</FormId>
+  <PrototypeId>PaperNtFormSec</PrototypeId>
+  <EntityName>форма NT--SEC-REP</EntityName>
+  <PhotocopierTitle>Заявление о правонарушении</PhotocopierTitle>
+  <Content><![CDATA[Форма NT-№XXX-SEC-REP
+[head=2]Заявление о правонарушении[/head]
+
+[italic]Дата: -/-/3024[/italic]
+
+Заявитель:
+Текущая должность заявителя:
+
+Я, (Имя Фамилия) считаю, что (Имя Фамилия) нарушил(а) следующие статьи Корпоративного Закона: (перечислить), так как (перечислить деяния)
+С ответственностью за заведомо ложные показания ознакомлен(а).
+Заявление рассмотрено: (имя и фамилия рассмотревшего)
+
+Место для печатей]]></Content>
+</Form>

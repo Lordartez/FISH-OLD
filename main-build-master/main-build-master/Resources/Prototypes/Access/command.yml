@@ -1,0 +1,37 @@
+- type: accessLevel
+  id: Command
+  name: id-card-access-level-command
+
+- type: accessLevel
+  id: Captain
+  name: id-card-access-level-captain
+
+- type: accessLevel
+  id: HeadOfPersonnel
+  name: id-card-access-level-head-of-personnel
+
+- type: accessLevel
+  id: Blueshield
+  name: id-card-access-level-blueshield
+
+- type: accessLevel
+  id: NanotrasenRepresentive
+  name: id-card-access-level-nanotrasenrepresentive
+
+- type: accessGroup
+  id: Command
+  tags:
+  - Command
+  - Captain
+  - HeadOfPersonnel
+  - NanotrasenRepresentive
+  - Blueshield
+  - Cryogenics
+  - Magistrat
+
+- type: accessLevel
+  id: EmergencyShuttleRepealAll
+
+- type: accessLevel
+  id: Cryogenics
+  name: id-card-access-level-cryogenics

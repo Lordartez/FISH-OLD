@@ -1,0 +1,46 @@
+- type: randomHumanoidSettings
+  id: DeadsquadSirena
+  speciesBlacklist: [ Arachnid, Diona, Dwarf, Moth, Reptilian, SlimePerson]
+  randomizeName: false
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-deadsquadsirena-name
+      description: ghost-role-information-deadsquadsirena-description
+      requirements:
+        - !type:DepartmentTimeRequirement
+          department: Command
+          time: 60000
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ DeathSquadGear ]
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitaryLeader
+      - NamesLastMilitary
+
+- type: entity
+  id: RandomHumanoidSpawnerDeadsquadSirena
+  components:
+    - type: Sprite
+      sprite: Sirena/Mobs/Icons/deathsquad.rsi
+      state: icon
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitaryLeader
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: DeadsquadSirena
+
+- type: entity
+  id: SpawnerDeadsquadSirena
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    sprite: Sirena/Mobs/Icons/deathsquad.rsi
+    layers:
+      - state: green
+      - state: icon
+  - type: ConditionalSpawner
+    prototypes:
+      - RandomHumanoidSpawnerDeadsquadSirena

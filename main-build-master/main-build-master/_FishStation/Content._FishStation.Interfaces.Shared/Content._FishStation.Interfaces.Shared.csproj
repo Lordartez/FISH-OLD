@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{77DE047C-0599-4691-9D12-96BCCDA99FF0}</ProjectGuid>
+    <RootNamespace>Content._FishStation.Interfaces.Shared</RootNamespace>
+    <AssemblyName>Content._FishStation.Interfaces.Shared</AssemblyName>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\RobustToolbox\Robust.Shared\Robust.Shared.csproj" />
+  </ItemGroup>
+</Project>

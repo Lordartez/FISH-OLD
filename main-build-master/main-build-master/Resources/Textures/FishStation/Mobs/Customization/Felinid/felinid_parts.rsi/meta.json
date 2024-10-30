@@ -1,0 +1,43 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Made by Discord @ 800682221316866078, FishStation",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "High_Ears",
+            "directions": 4
+        },
+        {
+            "name": "High_Ears_inter",
+            "directions": 4
+        },
+        {
+            "name": "Ears_fallen",
+            "directions": 4
+        },
+        {
+            "name": "Ears_fallen_inter",
+            "directions": 4
+        },
+        {
+            "name": "Elfian_Ears",
+            "directions": 4
+        },
+        {
+            "name": "Elfian_Ears_inter",
+            "directions": 4
+        },
+        {
+            "name": "Outer_Ears",
+            "directions": 4
+        },
+        {
+            "name": "Outer_Ears_inter",
+            "directions": 4
+        }
+    ]
+}

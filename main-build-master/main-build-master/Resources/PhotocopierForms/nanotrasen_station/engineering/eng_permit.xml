@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>eng_permit</FormId>
+  <PrototypeId>PaperNtFormEng</PrototypeId>
+  <EntityName>форма NT–ENG-COM-REQ</EntityName>
+  <PhotocopierTitle>Разрешение на строительство</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№ХХХ–ENG-COM-REQ[/bold]
+[head=2]Разрешение на строительство[/head]
+
+[italic]Дата:-/-/3024 [/italic]
+
+Заявитель:
+Текущая должность заявителя:
+
+Прошу разрешение на строительство/модернизацию следующего(их) объекта(ов):
+Причина:
+С техникой безопасности ознакомлен. Инженерный отдел в случае происшествия с моим здоровьем ответственности не несет.
+
+[italic]Место для печатей - Старший инженер[/italic]]]></Content>
+</Form>

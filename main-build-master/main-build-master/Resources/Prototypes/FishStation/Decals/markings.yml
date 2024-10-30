@@ -1,0 +1,351 @@
+- type: decal
+  id: box_0
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_0
+
+- type: decal
+  id: box_1
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_1
+
+- type: decal
+  id: box_2
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_2
+
+- type: decal
+  id: box_3
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_3
+
+- type: decal
+  id: box_4
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_4
+
+- type: decal
+  id: box_5
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_5
+
+- type: decal
+  id: box_6
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_6
+
+- type: decal
+  id: box_7
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_7
+
+- type: decal
+  id: box_8
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_8
+
+- type: decal
+  id: box_9
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_9
+
+- type: decal
+  id: box_a
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_a
+
+- type: decal
+  id: box_b
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_b
+
+- type: decal
+  id: box_c
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_c
+
+- type: decal
+  id: box_d
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_d
+
+- type: decal
+  id: box_e
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_e
+
+- type: decal
+  id: box_f
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_f
+
+- type: decal
+  id: box_g
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_g
+
+- type: decal
+  id: box_h
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_h
+
+- type: decal
+  id: box_i
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_i
+
+- type: decal
+  id: box_j
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_j
+
+- type: decal
+  id: box_k
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_k
+
+- type: decal
+  id: box_l
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_l
+
+- type: decal
+  id: box_m
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_m
+
+- type: decal
+  id: box_n
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_n
+
+- type: decal
+  id: box_o
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_o
+
+- type: decal
+  id: box_p
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_p
+
+- type: decal
+  id: box_q
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_q
+
+- type: decal
+  id: box_r
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_r
+
+- type: decal
+  id: box_s
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_s
+
+- type: decal
+  id: box_t
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_t
+
+- type: decal
+  id: box_u
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_u
+
+- type: decal
+  id: box_v
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_v
+
+- type: decal
+  id: box_w
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_w
+
+- type: decal
+  id: box_x
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_x
+
+- type: decal
+  id: box_y
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_y
+
+- type: decal
+  id: box_z
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: box_z
+
+- type: decal
+  id: gas_3h
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: gas_3h
+
+- type: decal
+  id: gas_air
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: gas_air
+
+- type: decal
+  id: gas_h2o
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: gas_h2o
+
+- type: decal
+  id: gas_n2
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: gas_n2
+
+- type: decal
+  id: gas_n2o
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: gas_n2o
+
+- type: decal
+  id: gas_nh3
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: gas_nh3
+
+- type: decal
+  id: gas_o2
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: gas_o2
+
+- type: decal
+  id: gas_pla
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: Decals/markings.rsi
+    state: gas_pla

@@ -1,0 +1,14 @@
+- type: gameMapPool
+  id: CorvaxMapPool
+  maps:
+    - FishDelta
+    - FishAvrite
+    - CorvaxSpectrum
+    - CorvaxGate
+    - CorvaxSilly
+    - FishOutpost
+    - CorvaxAstra
+    - CorvaxGelta
+    - CorvaxMaus
+    - CorvaxIshimura
+    - FishBox

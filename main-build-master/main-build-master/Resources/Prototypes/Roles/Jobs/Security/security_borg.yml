@@ -1,0 +1,15 @@
+- type: job
+  id: SecurityBorg
+  name: job-name-securityborg
+  description: job-description-securityborg
+  playTimeTracker: JobSecurityBorg
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 54000 #15 hrs # fish-station-RoleTime
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000
+  canBeAntag: false
+  icon: JobIconSecurityBorg
+  supervisors: job-supervisors-security
+  jobEntity: PlayerSecurityBorgGeneric

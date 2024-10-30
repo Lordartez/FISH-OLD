@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <SkipRobustAnalyzer>true</SkipRobustAnalyzer>
+  </PropertyGroup>
+
+  <Import Project="..\MSBuild\Robust.Properties.targets"/>
+  <Import Project="..\MSBuild\Robust.Engine.props"/>
+
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageVersion Update="NUnit" Version="3.14.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzer.Testing"/>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp"/>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.NUnit"/>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces"/>
+    <PackageReference Include="NUnit"/>
+    <PackageReference Include="NUnit3TestAdapter"/>
+    <PackageReference Include="NUnit.Analyzers"/>
+    <PackageReference Include="Microsoft.NET.Test.Sdk"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Robust.Analyzers\Robust.Analyzers.csproj"/>
+    <ProjectReference Include="..\Robust.Serialization.Generator\Robust.Serialization.Generator.csproj" Aliases="SerializationGenerator" />
+  </ItemGroup>
+</Project>

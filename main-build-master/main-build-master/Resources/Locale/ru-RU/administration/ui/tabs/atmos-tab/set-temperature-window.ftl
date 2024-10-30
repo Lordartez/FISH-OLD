@@ -1,0 +1,1 @@
+administration-ui-atmos-tab-temperature = Температура

@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelBS
+  name: blueshield duffel bag
+  description: Blueshield Duffel
+  components:
+  - type: Sprite
+    sprite: FishStation/Clothing/Back/Duffels/OBS_duffel.rsi

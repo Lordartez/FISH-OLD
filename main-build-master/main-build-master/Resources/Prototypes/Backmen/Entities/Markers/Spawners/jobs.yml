@@ -1,0 +1,59 @@
+﻿- type: entity
+  id: SpawnPointBKCCOperator
+  parent: SpawnPointJobBase
+  name: ЦК Оператор
+  components:
+    - type: SpawnPoint
+      job_id: CCOperator
+    - type: Sprite
+      layers:
+        - state: green
+        - state: captain
+
+- type: entity
+  id: SpawnPointBKCCSecGavna
+  parent: SpawnPointJobBase
+  name: ЦК Охрана
+  components:
+    - type: SpawnPoint
+      job_id: CCSecurity
+    - type: Sprite
+      layers:
+        - state: green
+        - state: captain
+
+- type: entity
+  id: SpawnPointBKCCIntern
+  parent: SpawnPointJobBase
+  name: ЦК Интерн
+  components:
+    - type: SpawnPoint
+      job_id: CCIntern
+    - type: Sprite
+      layers:
+        - state: green
+        - state: captain
+
+- type: entity
+  id: SpawnPointBKCCPCK
+  parent: SpawnPointJobBase
+  name: ЦК ПЦК
+  components:
+    - type: SpawnPoint
+      job_id: CCPCK
+    - type: Sprite
+      layers:
+        - state: green
+        - state: captain
+
+- type: entity
+  id: SpawnPointBKCCHOCK
+  parent: SpawnPointJobBase
+  name: ЦК НШЦК
+  components:
+    - type: SpawnPoint
+      job_id: CCHOCK
+    - type: Sprite
+      layers:
+        - state: green
+        - state: captain

@@ -1,0 +1,13 @@
+- type: accessLevel
+  id: Magistrat
+  name: id-card-access-level-magistrat
+
+- type: accessLevel
+  id: Lawyer
+  name: id-card-access-level-lawyer
+
+- type: accessGroup
+  id: Lawyer
+  tags:
+  - Magistrat
+  - Lawyer

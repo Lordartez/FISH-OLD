@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>sec_sur</FormId>
+  <PrototypeId>PaperNtFormSec</PrototypeId>
+  <EntityName>форма NT-SEC-REP</EntityName>
+  <PhotocopierTitle>Явка с повинной</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-SEC-REP[/bold]
+[head=2]Явка с повинной[/head]
+
+[italic]Дата: -/-/3024[/italic]
+
+Заявитель:
+Текущая должность заявителя:
+
+Я, (Имя Фамилия), самолично признаюсь в совершении преступления.
+Место преступления:
+Мотивы совершения преступления:
+Против кого было совершено преступление и характер приченённого вреда:
+Полная хронология событий:(рассказ о происшествии)
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

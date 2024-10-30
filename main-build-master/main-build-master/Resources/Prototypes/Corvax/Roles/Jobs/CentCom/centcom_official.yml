@@ -1,0 +1,223 @@
+- type: job
+  id: CCHOCK
+  name: Начальник Штаба Центрального Командования
+  description: Босс боссов капитана станции.
+  playTimeTracker: JobCentralCommandHOCK
+  setPreference: true
+  startingGear: OperatorGavna
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom2 # Corvax-JobSupervisors
+  canBeAntag: false
+  radioBold: true
+  weight: 1
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  setHideFromConsole: true
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobCentralCommandOperator
+      time: 12000
+    - !type:RoleTimeRequirement
+      role: JobCentralCommandSecurity
+      time: 12000
+    - !type:RoleTimeRequirement
+      role: JobCentralCommandPCK
+      time: 12000
+  accessGroups:
+    - AllAccess
+  access:
+    - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: job
+  id: CCOperator
+  name: job-name-centcomoper
+  description: job-description-centcomoper
+  playTimeTracker: JobCentralCommandOperator
+  setPreference: true
+  startingGear: OperatorGavna
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom2 # Corvax-JobSupervisors
+  canBeAntag: false
+  radioBold: true
+  weight: 1
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  setHideFromConsole: true
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: CentCom
+      time: 12000
+  accessGroups:
+    - AllAccess
+  access:
+    - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: job
+  id: CCPCK
+  name: Представитель Центрального Командования
+  description: Накажите этих СБшников.
+  playTimeTracker: JobCentralCommandPCK
+  setPreference: true
+  startingGear: CentcomGear
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom2 # Corvax-JobSupervisors
+  canBeAntag: false
+  radioBold: true
+  weight: 1
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  setHideFromConsole: true
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: CentCom
+      time: 12000
+  accessGroups:
+    - AllAccess
+  access:
+    - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: job
+  id: CCSecurity
+  name: job-name-centcomSecGavna
+  description: job-description-centcomSecGavna
+  playTimeTracker: JobCentralCommandSecurity
+  setPreference: true
+  startingGear: OfficerCentCom
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom2 # Corvax-JobSupervisors
+  canBeAntag: false
+  radioBold: true
+  weight: 1
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  setHideFromConsole: true
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: CentCom
+      time: 12000
+  accessGroups:
+    - AllAccess
+  access:
+    - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant, TrackingImplant ]
+
+- type: job
+  id: CCIntern
+  name: job-name-centcomintern
+  description: job-description-centcomintern
+  playTimeTracker: JobCentralCommandIntern
+  setPreference: true
+  startingGear: CCIntern
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom2 # Corvax-JobSupervisors
+  canBeAntag: false
+  radioBold: true
+  weight: 1
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  setHideFromConsole: true
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 48000
+    - !type:DepartmentTimeRequirement
+      department: Juridical
+      time: 48000
+  accessGroups:
+    - AllAccess
+  access:
+    - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant, TrackingImplant ]
+
+- type: startingGear
+  id: OperatorGavna
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomOfficer
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsJack
+    eyes: ClothingEyesGlassesSunglasses
+    head: ClothingHeadHatBeretCentcomNaval
+    id: CentcomPDA
+    ears: ClothingHeadsetCentCom
+    pocket1: PenCentcom
+    pocket2: BoxFolderCentComClipboard
+    gloves: ClothingHandsGlovesCombat
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
+
+- type: startingGear
+  id: CCIntern
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomOfficial
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsJack
+    id: CentcomPDA
+    ears: ClothingHeadsetAltCentCom
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
+
+- type: startingGear
+  id: OfficerCentCom
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoSAlt
+    back: ClothingBackpackFilled
+    mask: ClothingMaskGasSecurity
+    shoes: ClothingShoesBootsJack
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterArmorBasic
+    suitstorage: WeaponPistolMk58
+    head: ClothingHeadHatBeretHoS
+    id: CentcomPDA
+    ears: ClothingHeadsetCentCom
+    belt: ClothingBeltSecuritySuper
+    pocket2: MagazinePistol
+
+- type: entity
+  name: дубинка-шокер спецсил
+  parent: Stunbaton
+  id: StunbatonSuper
+  description: Электрошоковая дубинка для обездвиживания людей. Слишком усердное причинение вреда с помощью этого предмета считается дурным тоном.
+  components:
+  - type: Stunbaton
+    energyPerUse: 10
+
+- type: entity
+  name: станнер спецсил
+  parent: WeaponDisabler
+  id: WeaponDisablerSuper
+  description: Оружие для самозащиты, которое изнуряет органические цели, пока они не свалятся с ног.
+  components:
+    - type: ProjectileBatteryAmmoProvider
+      proto: BulletDisabler
+      fireCost: 10
+
+- type: entity
+  name: пояс охраны спецсил
+  description: Может вмещать различное снаряжение службы безопасности, такое как наручники и вспышки.
+  parent: ClothingBeltSecurity
+  id: ClothingBeltSecuritySuper
+  components:
+    - type: Storage
+      capacity: 60
+    - type: StorageFill
+      contents:
+        - id: WeaponDisablerSuper
+        - id: StunbatonSuper
+        - id: GrenadeFlashBang
+        - id: GrenadeFlashBang
+        - id: Handcuffs
+        - id: Handcuffs

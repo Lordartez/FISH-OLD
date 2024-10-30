@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>med_rep_psych</FormId>
+  <PrototypeId>PaperNtFormMed</PrototypeId>
+  <EntityName>форма NT-MED-SER</EntityName>
+  <PhotocopierTitle>Заключение о психологическом здоровье</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-MED-SER[/bold]
+[head=2]Заключение о психологическом здоровье[/head]
+
+[italic]Дата: -/-/3024[/italic]
+
+Дата: 
+Уполномоченное лицо:
+Должность уполномоченного лица:
+
+Полное имя и должность пациента:
+Психологический анамнез: (К работе не годен, психически нездоров, опасен для окружающих, маниакальное расстройство)
+
+[italic]Место для печатей - Психолог[/italic]]]></Content>
+</Form>

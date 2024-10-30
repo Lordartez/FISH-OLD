@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelBS
+  name: blueshield satchel
+  description: blueshield satchel.
+  components:
+    - type: Sprite
+      sprite: FishStation/Clothing/Back/Satchels/OBS_satchel.rsi

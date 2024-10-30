@@ -1,0 +1,13 @@
+- type: entity
+  name: обр борг
+  id: SpawnerBorgERT
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ert
+        sprite: Mobs/Silicon/chassis.rsi
+  - type: ConditionalSpawner
+    prototypes:
+      - PlayerERTBorgGeneric

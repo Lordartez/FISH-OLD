@@ -1,0 +1,173 @@
+- type: entity
+  id: LockerMedicineFilled
+  suffix: Filled
+  parent: LockerMedicine
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSyringe
+      - id: EpinephrineChemistryBottle
+        amount: 1
+      - id: Brutepack
+        amount: 2
+      - id: Ointment
+        amount: 2
+      - id: Bloodpack
+        amount: 2
+      - id: Gauze
+
+- type: entity
+  id: LockerWallMedicalFilled
+  name: medicine wall locker
+  suffix: Filled
+  parent: LockerWallMedical
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSyringe
+      - id: EpinephrineChemistryBottle
+        amount: 1
+      - id: Brutepack
+        amount: 2
+      - id: Ointment
+        amount: 2
+      - id: Bloodpack
+        amount: 2
+      - id: Gauze
+
+
+- type: entity
+  id: LockerMedicalFilled
+  suffix: Filled
+  parent: LockerMedical
+  components:
+  - type: StorageFill
+    contents:
+      - id: HandheldHealthAnalyzer
+        prob: 0.6
+      - id: ClothingHandsGlovesLatex
+      - id: ClothingHeadsetMedical
+      - id: ClothingEyesHudMedical
+      - id: ClothingBeltMedical
+      - id: ClothingHeadHatSurgcapGreen
+        prob: 0.1
+        orGroup: Surgcaps
+      - id: ClothingHeadHatSurgcapPurple
+        prob: 0.05
+        orGroup: Surgcaps
+      - id: ClothingHeadHatSurgcapBlue
+        prob: 0.90
+        orGroup: Surgcaps
+      - id: UniformScrubsColorBlue
+        prob: 0.5
+        orGroup: Surgshrubs
+      - id: UniformScrubsColorGreen
+        prob: 0.1
+        orGroup: Surgshrubs
+      - id: UniformScrubsColorPurple
+        prob: 0.05
+        orGroup: Surgshrubs
+      - id: ClothingMaskSterile
+
+- type: entity
+  id: LockerPatologoanatomFilled
+  suffix: Заполненный
+  parent: LockerPatologoanatom
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingUniformJumpsuitMedicalDoctor
+      - id: HandheldHealthAnalyzer
+        prob: 0.6
+      - id: BoxFolderBlue
+        amount: 2
+        prob: 0.6
+      - id: BoxForensicPad
+        amount: 3
+      - id: ClothingHeadsetPatologoanatom
+      - id: HeadSkeleton
+        prob: 0.6
+      - id: ClothingHeadHatPatologonatHat
+      - id: Scalpel
+      - id: ClothingHandsGlovesNitrile
+      - id: ClothingShoesColorBlack
+      - id: ClothingOuterHospitalGown
+        amount: 2
+      - id: ForensicScanner
+
+- type: entity
+  parent: LockerWallMedical
+  id: LockerWallMedicalDoctorFilled
+  name: medical doctor's wall locker
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+      - id: HandheldHealthAnalyzer
+        prob: 0.6
+      - id: ClothingHandsGlovesLatex
+      - id: ClothingHeadsetMedical
+      - id: ClothingEyesHudMedical
+      - id: ClothingBeltMedical
+      - id: ClothingHeadHatSurgcapGreen
+        prob: 0.1
+        orGroup: Surgcaps
+      - id: ClothingHeadHatSurgcapPurple
+        prob: 0.05
+        orGroup: Surgcaps
+      - id: ClothingHeadHatSurgcapBlue
+        prob: 0.90
+        orGroup: Surgcaps
+      - id: UniformScrubsColorBlue
+        prob: 0.5
+        orGroup: Surgshrubs
+      - id: UniformScrubsColorGreen
+        prob: 0.1
+        orGroup: Surgshrubs
+      - id: UniformScrubsColorPurple
+        prob: 0.05
+        orGroup: Surgshrubs
+      - id: ClothingMaskSterile
+
+- type: entity
+  id: LockerChemistryFilled
+  suffix: Filled
+  parent: LockerChemistry
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSyringe
+      - id: BoxBeaker
+      - id: BoxBeaker
+        prob: 0.3
+      - id: BoxPillCanister
+      - id: BoxBottle
+      - id: BoxVial
+      - id: ChemBag
+      - id: ClothingHandsGlovesLatex
+      - id: ClothingHeadsetMedical
+      - id: ClothingMaskSterile
+      - id: HandLabeler
+        prob: 0.5
+
+- type: entity
+  id: LockerParamedicFilled
+  suffix: Filled
+  parent: LockerParamedic
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitVoidParamed
+      - id: ClothingOuterCoatParamedicWB
+      - id: ClothingHeadHatParamedicsoft
+      - id: ClothingOuterWinterPara
+      - id: ClothingUniformJumpsuitParamedic
+      - id: ClothingUniformJumpskirtParamedic
+      - id: ClothingEyesHudMedical
+      - id: ClothingHandsGlovesLatex
+      - id: ClothingHeadsetMedical
+      - id: ClothingMaskSterile
+      - id: HandheldGPSBasic
+      - id: MedkitFilled
+      - id: VehicleKeyParamedic
+      - id: HandheldCrewMonitor

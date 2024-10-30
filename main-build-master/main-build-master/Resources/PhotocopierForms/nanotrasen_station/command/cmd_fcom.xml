@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>cmd_fcom</FormId>
+  <PrototypeId>PaperNtFormCmd</PrototypeId>
+  <EntityName>форма NT-CMD-DCR</EntityName>
+  <PhotocopierTitle>Заявление об увольнении Главы отдела</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№ХХХ-CMD-DCR[/bold]
+[head=2]Приказ об увольнении Главы отдела[/head]
+
+[italic]Дата: -/-/3024 [/italic]
+Уполномоченное лицо:
+Должность уполномоченного лица:
+
+Заявляю об официальном увольнении действующего Главы (название отдела) (полное имя Главы) по причине:
+
+[italic]При наличии иных причин, другие Главы могут дописать их в данном документе.[/italic]
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>sec_ord_imp</FormId>
+  <PrototypeId>PaperNtFormSec</PrototypeId>
+  <EntityName>форма NT-SEC-REP</EntityName>
+  <PhotocopierTitle>Распоряжение об имплантации</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-SEC-REP[/bold]
+[head=2]Распоряжение об имплантации[/head]
+
+[italic]Дата: -/-/3024[/italic]
+
+Уполномоченное лицо:
+Должность уполномоченного лица:
+
+Я, (Имя Фамилия), распоряжаюсь провести хирургическую операцию с целью установки импланта ("название импланта")/поиска имплантов в отношении (Имя Фамилия) в должности (должность). Основание для проведения операции:
+
+[italic]Место для печатей - Глава Службы Безопасности[/italic]]]></Content>
+</Form>

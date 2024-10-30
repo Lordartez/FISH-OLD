@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>med_ord_chem</FormId>
+  <PrototypeId>PaperNtFormMed</PrototypeId>
+  <EntityName>форма NT-XXX-MED-ORD</EntityName>
+  <PhotocopierTitle>Заказ на производство продукта</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-XXX-MED-ORD[/bold]
+[head=2]Заказ на производство продукта[/head]
+
+Дата: -/-/3024
+Заявитель:
+Текущая должность заявителя:
+
+Вещество/продукт/препарат:
+Количество и дозировка:(Повторить требуемое количество лекарств)
+Исполнение: (Таблетка/тара/продукт)
+Причина:
+
+[italic]Место для печатей – Главный врач[/italic]]]></Content>
+</Form>

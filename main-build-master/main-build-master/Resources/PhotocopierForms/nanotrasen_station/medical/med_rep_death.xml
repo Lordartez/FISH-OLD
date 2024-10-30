@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>med_rep_death</FormId>
+  <PrototypeId>PaperNtFormMed</PrototypeId>
+  <EntityName>форма NT-MED-SER</EntityName>
+  <PhotocopierTitle>Свидетельство о смерти</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-MED-SER[/bold]
+[head=2]Свидетельство о смерти[/head]
+
+[italic]Дата: -/-/3024[/italic]
+
+Уполномоченное лицо:
+Должность уполномоченного лица:
+
+Имя и Фамилия умершего:
+Раса:
+Пол:
+Должность:
+Причина смерти:
+Видимые повреждения:
+Днк и отпечатки:
+Статус клонирования и реанимации:
+Утилизация тела Главным Врачом: (разрешена/запрещена)
+
+[italic]Место для печатей – Главный врач[/italic]]]></Content>
+</Form>

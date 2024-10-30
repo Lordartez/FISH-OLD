@@ -1,0 +1,25 @@
+- type: gameMapPool
+  id: CorvaxDefaultMapPool
+  maps:
+  - FishAvrite
+  - CorvaxSpectrum
+  - CorvaxSilly
+  - FishOutpost
+  - CorvaxAstra
+  - FishAspid
+  - CorvaxMaus
+  - CorvaxIshimura
+  - CorvaxPaper
+  - CorvaxSplit
+  - Atlas
+  - Bagel
+  - FishShiBox
+  - FishCluster
+  - Core
+  - Fland
+  - Marathon
+  - Meta
+  - Omega
+  - Origin
+  - Saltern
+  - Packed

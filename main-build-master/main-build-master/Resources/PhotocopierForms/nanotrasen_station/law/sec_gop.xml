@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>sec_gop</FormId>
+  <PrototypeId>PaperNtFormLaw</PrototypeId>
+  <EntityName>форма NT-LEG-SEC-IN</EntityName>
+  <PhotocopierTitle>Запрос на УДО для заключенного</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-LEG-SEC-IN[/bold]
+[head=2]Запрос на УДО для заключенного[/head]
+
+[italic]Дата:-/-/3024[/italic]
+
+Я, (ваше полное имя), в должности — (полное название вашей должности), запрашиваю УДО для заключённого (полное имя заключённого) осуждённого за следующею статью: (перечисление нарушенных статей КЗ). Основание для УДО: (причина УДО).
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

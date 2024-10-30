@@ -1,0 +1,26 @@
+name: "Фикс или доработка"
+description: "Пользуемся этим разделом как ToDo лист, потому что еще не доросли до Jira."
+labels: ["tweak"]
+body:
+  - type: textarea
+    id: threadlink
+    attributes:
+      label: "Ссылка на тему"
+      description: |
+        Возможная ссылка на тему из канала #предложения-по-серверу или #баг-репорт в Discord.
+
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: "Описание"
+      description: "Опишите доработку как можно подробнее"
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Скриншоты"
+      description: |
+        Если приемлемо, добавьте скриншоты доработки или фикса
+        **Подсказка**: Вы можете прикрепить изображения щелкнув по области ниже, чтобы выделить её, а затем перетащив в нее файлы

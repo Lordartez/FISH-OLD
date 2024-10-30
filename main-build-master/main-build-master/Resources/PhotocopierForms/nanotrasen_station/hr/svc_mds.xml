@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>svc_mds</FormId>
+  <PrototypeId>PaperNtForm</PrototypeId>
+  <EntityName>форма NT-CMD-DCR</EntityName>
+  <PhotocopierTitle>Свидетельство о расторжении брака</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№ХХХ-CMD-DCR[/bold]
+[head=2]Свидетельство о расторжении брака[/head]
+
+Дата: -/-/3024
+
+Я, (Имя Фамилия), в должности (Священник или Капитан), расторгаю брак между (Имя Фамилия) и (Имя Фамилия) по причине: (с согласия обоих сторон/в одностороннем порядке).
+Совместно нажитое имущество будет разделено поровну.
+После расторжения брака присвоены фамилии:
+Мужу -
+Жене -
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

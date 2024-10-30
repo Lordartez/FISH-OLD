@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>med_rcp</FormId>
+  <PrototypeId>PaperNtFormMed</PrototypeId>
+  <EntityName>форма NT-MED-SER</EntityName>
+  <PhotocopierTitle>Лекарственный рецепт</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-MED-SER[/bold]
+[head=2]Лекарственный рецепт[/head]
+
+Дата: -/-/3024
+Уполномоченное лицо:
+Должность уполномоченного лица:
+
+Полное имя и должность пациента:
+Разрешенные лекарства: Прим.: Масло ТГК
+Причина: (Невыносимые муки причиняемые психологическими/физическими болезнями и т.п.)
+
+[italic]Место для печатей - Главный врач или Психолог[/italic]]]></Content>
+</Form>

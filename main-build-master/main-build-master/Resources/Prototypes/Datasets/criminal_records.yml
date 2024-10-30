@@ -1,0 +1,18 @@
+# "funny" placeholders of extremely minor/non-crimes for wanted reason dialog
+- type: dataset
+  id: CriminalRecordsWantedReasonPlaceholders
+  values:
+  - Съел свою обувь
+  - Клоун
+  - Мим
+  - Неправильно дышал
+  - Сломал туалет
+  - Ничего не делал
+  - Не поздоровался
+  - Выпил слишком много
+  - Ложь в рацию
+  - Оскорбительно посмотрел
+  - Унизил ГСБ
+  - Украл маску клоуна
+  - Рассказал несмешную шутку
+  - Надел противогаз

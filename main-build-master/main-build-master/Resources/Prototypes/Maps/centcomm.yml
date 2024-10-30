@@ -1,0 +1,21 @@
+- type: gameMap
+  id: centcommcorvax
+  mapName: 'Central Command'
+  mapPath: /Maps/corvax_centcomm.yml
+  minPlayers: 0
+  stations:
+    centcommcorvax:
+      stationProto: NanotrasenCentralCommand
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Central Command {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'TG'
+        - type: StationJobs
+          availableJobs:
+            CCOperator: [ 1, 1]
+            CCSecurity: [ 2, 2]
+            CCIntern: [ 2, 2]
+            CCPCK: [ 1, 1]
+            CCHOCK: [ 1, 1]

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>law_sitrep</FormId>
+  <PrototypeId>PaperNtFormLaw</PrototypeId>
+  <EntityName>форма NT-RND-REP</EntityName>
+  <PhotocopierTitle>Отчёт о работе юридического отдела</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№XXX-RND-REP[/bold]
+[head=2]Отчёт о работе юридического отдела[/head]
+
+[italic]Дата: -/-/3024 [/italic]
+
+[bold]Текущий глава отдела:[/bold] (ПОЛНОЕ ИМЯ/ОТСУТСВУЕТ)
+
+[bold]Были ли казни?[/bold]
+
+[bold]Были ли судебные процессы?[/bold]
+
+[bold]Были ли замечены нарушения СРП?[/bold]
+(НЕТ/ПЕРЕЧИСЛЕНИЕ)
+
+[bold]Несчастные случаи среди сотрудников:[/bold]
+(НЕТ/ПЕРЕЧИСЛЕНИЕ)
+
+[bold]Есть ли нехватка персонала?[/bold]
+
+
+[italic]Место для печатей (АВД или Магистрат)[/italic]
+
+
+[bold] ПРИМЕЧАНИЕ! К этому отчету необходимо  приказы о казнях, если такие были, заверенный печатью Магистрата или Капитаном станции. Также результаты судебного процесса, если такие были[/bold]]]>
+</Content>
+</Form>

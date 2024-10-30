@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "tgstation at 606005645d3a14c4439e5ce14785650121b22678",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "arrows"
+    },
+    {
+      "name": "arrows_greyscale"
+    },
+    {
+      "name": "bot"
+    },
+    {
+      "name": "bot_greyscale"
+    },
+    {
+      "name": "bot_left"
+    },
+    {
+      "name": "bot_left_greyscale"
+    },
+    {
+      "name": "bot_right"
+    },
+    {
+      "name": "bot_right_greyscale"
+    },
+    {
+      "name": "box"
+    },
+    {
+      "name": "box_greyscale"
+    },
+    {
+      "name": "caution"
+    },
+    {
+      "name": "caution_greyscale"
+    },
+    {
+      "name": "delivery"
+    },
+    {
+      "name": "delivery_greyscale"
+    },
+    {
+      "name": "loading_area"
+    },
+    {
+      "name": "loading_area_greyscale"
+    },
+    {
+      "name": "standclear"
+    },
+    {
+      "name": "standclear_greyscale"
+    },
+    {
+      "name": "warn_box"
+    },
+    {
+      "name": "warn_box_greyscale"
+    },
+    {
+      "name": "warn_end"
+    },
+    {
+      "name": "warn_end_greyscale"
+    },
+    {
+      "name": "warn_full"
+    },
+    {
+      "name": "warn_full_greyscale"
+    },
+    {
+      "name": "warningline"
+    },
+    {
+      "name": "warningline_greyscale"
+    },
+    {
+      "name": "warninglinecorner"
+    },
+    {
+      "name": "warninglinecorner_greyscale"
+    },
+    {
+      "name": "warninglinecorner_flipped"
+    },
+    {
+      "name": "warninglinecorner_flipped_greyscale"
+    },
+    {
+      "name": "warn_corner"
+    },
+    {
+      "name": "warn_corner_greyscale"
+    },
+    {
+      "name": "warn_corner_flipped"
+    },
+    {
+      "name": "warn_corner_flipped_greyscale"
+    },
+    {
+      "name": "warn_corner_greyscale_ne"
+    },
+    {
+      "name": "warn_corner_greyscale_nw"
+    },
+    {
+      "name": "warn_corner_greyscale_se"
+    },
+    {
+      "name": "warn_corner_greyscale_sw"
+    },
+    {
+      "name": "warn_corner_ne"
+    },
+    {
+      "name": "warn_corner_nw"
+    },
+    {
+      "name": "warn_corner_se"
+    },
+    {
+      "name": "warn_corner_sw"
+    },
+    {
+      "name": "warn_corner_small_greyscale_ne"
+    },
+    {
+      "name": "warn_corner_small_greyscale_nw"
+    },
+    {
+      "name": "warn_corner_small_greyscale_se"
+    },
+    {
+      "name": "warn_corner_small_greyscale_sw"
+    },
+    {
+      "name": "warn_corner_small_ne"
+    },
+    {
+      "name": "warn_corner_small_nw"
+    },
+    {
+      "name": "warn_corner_small_se"
+    },
+    {
+      "name": "warn_corner_small_sw"
+    },
+    {
+      "name": "warn_end_e"
+    },
+    {
+      "name": "warn_end_n"
+    },
+    {
+      "name": "warn_end_s"
+    },
+    {
+      "name": "warn_end_w"
+    },
+    {
+      "name": "warn_end_greyscale_e"
+    },
+    {
+      "name": "warn_end_greyscale_n"
+    },
+    {
+      "name": "warn_end_greyscale_s"
+    },
+    {
+      "name": "warn_end_greyscale_w"
+    },
+    {
+      "name": "warn_line_e"
+    },
+    {
+      "name": "warn_line_n"
+    },
+    {
+      "name": "warn_line_s"
+    },
+    {
+      "name": "warn_line_w"
+    },
+    {
+      "name": "warn_line_greyscale_e"
+    },
+    {
+      "name": "warn_line_greyscale_n"
+    },
+    {
+      "name": "warn_line_greyscale_s"
+    },
+    {
+      "name": "warn_line_greyscale_w"
+    },
+    {
+      "name": "hatch_small"
+    },
+    {
+      "name": "vent_small"
+    },
+    {
+      "name": "box_0"
+    },
+    {
+      "name": "box_1"
+    },
+    {
+      "name": "box_2"
+    },
+    {
+      "name": "box_3"
+    },
+    {
+      "name": "box_4"
+    },
+    {
+      "name": "box_5"
+    },
+    {
+      "name": "box_6"
+    },
+    {
+      "name": "box_7"
+    },
+    {
+      "name": "box_8"
+    },
+    {
+      "name": "box_9"
+    },
+    {
+      "name": "box_a"
+    },
+    {
+      "name": "box_arrow"
+    },
+    {
+      "name": "box_arrow_greyscale"
+    },
+    {
+      "name": "box_b"
+    },
+    {
+      "name": "box_c"
+    },
+    {
+      "name": "box_cross"
+    },
+    {
+      "name": "box_d"
+    },
+    {
+      "name": "box_e"
+    },
+    {
+      "name": "box_f"
+    },
+    {
+      "name": "box_g"
+    },
+    {
+      "name": "box_h"
+    },
+    {
+      "name": "box_i"
+    },
+    {
+      "name": "box_j"
+    },
+    {
+      "name": "box_k"
+    },
+    {
+      "name": "box_l"
+    },
+    {
+      "name": "box_m"
+    },
+    {
+      "name": "box_n"
+    },
+    {
+      "name": "box_o"
+    },
+    {
+      "name": "box_p"
+    },
+    {
+      "name": "box_q"
+    },
+    {
+      "name": "box_r"
+    },
+    {
+      "name": "box_s"
+    },
+    {
+      "name": "box_t"
+    },
+    {
+      "name": "box_u"
+    },
+    {
+      "name": "box_v"
+    },
+    {
+      "name": "box_w"
+    },
+    {
+      "name": "box_x"
+    },
+    {
+      "name": "box_y"
+    },
+    {
+      "name": "box_z"
+    },
+    {
+      "name": "gas_3h"
+    },
+    {
+      "name": "gas_air"
+    },
+    {
+      "name": "gas_h2o"
+    },
+    {
+      "name": "gas_n2"
+    },
+    {
+      "name": "gas_n2o"
+    },
+    {
+      "name": "gas_nh3"
+    },
+    {
+      "name": "gas_o2"
+    },
+    {
+      "name": "gas_pla"
+    }
+  ]
+}

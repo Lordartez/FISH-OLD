@@ -1,0 +1,45 @@
+- type: damageModifierSet
+  id: Felinid
+  coefficients:
+    Blunt: 1.0
+    Piercing: 1.15
+    Slash: 1.30
+    Cold: 1.5
+    Heat: 2.0
+    Poison: 1.1
+
+- type: damageModifierSet
+  id: SecurityBorg
+  coefficients:
+    Blunt: 0.5
+    Slash: 0.5
+    Piercing: 0.5
+    Shock: 0.5
+    Cold: 0.25
+    Heat: 0.5
+    Poison: 0.0
+    Radiation: 0.0
+
+- type: damageModifierSet
+  id: SyndieAssaultBorg
+  coefficients:
+    Blunt: 0.5
+    Slash: 0.6
+    Piercing: 0.65
+    Shock: 0.5
+    Cold: 0.25
+    Heat: 0.5
+    Poison: 0.0
+    Radiation: 0.0
+
+- type: damageModifierSet
+  id: ERTBorg
+  coefficients:
+    Blunt: 0.5
+    Slash: 0.5
+    Piercing: 0.5
+    Shock: 0.5
+    Cold: 0.25
+    Heat: 0.5
+    Poison: 0.0
+    Radiation: 0.0

@@ -1,0 +1,14 @@
+﻿- type: playTimeTracker
+  id: JobCentralCommandOperator
+
+- type: playTimeTracker
+  id: JobCentralCommandSecurity
+
+- type: playTimeTracker
+  id: JobCentralCommandIntern
+
+- type: playTimeTracker
+  id: JobCentralCommandHOCK
+
+- type: playTimeTracker
+  id: JobCentralCommandPCK

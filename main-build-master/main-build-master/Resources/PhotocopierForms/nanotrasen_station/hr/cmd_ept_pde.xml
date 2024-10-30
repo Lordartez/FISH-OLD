@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>cmd_ept_pde</FormId>
+  <PrototypeId>PaperNtForm</PrototypeId>
+  <EntityName>форма NT-CMD-SER</EntityName>
+  <PhotocopierTitle>Разрешение на использование снаряжения отдела</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№ХХХ-CMD-SER[/bold]
+[head=2]Разрешение на использование снаряжения отдела[/head]
+
+[italic]Дата: -/-/3024 [/italic]
+
+[bold]Заявитель:[/bold]
+
+Прошу разрешение на использование снаряжения (указать отдел) отдела в связи с (указать причину)
+Перечень снаряжения:
+Обязуюсь по первому требованию, без отдельного приказа, сдать полученное мной снаряжение
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

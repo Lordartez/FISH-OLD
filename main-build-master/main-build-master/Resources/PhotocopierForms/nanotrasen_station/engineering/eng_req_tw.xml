@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>eng_req_tw</FormId>
+  <PrototypeId>PaperNtFormEng</PrototypeId>
+  <EntityName>форма NT-ENG-REQ</EntityName>
+  <PhotocopierTitle>Запрос на проведение технических работ</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма NT-№ХХХ-ENG-REQ[/bold]
+[head=2]Запрос на проведение технических работ[/head]
+
+[italic]Дата: -/-/3024 [/italic]
+
+Заявитель:
+Текущая должность заявителя:
+
+Название отдела:
+Причина:
+
+[italic]Место для печати - Печать главы отдела[/italic]]]></Content>
+</Form>

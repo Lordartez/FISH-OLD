@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form>
+  <FormId>sec_rep_ia</FormId>
+  <PrototypeId>PaperNtFormLaw</PrototypeId>
+  <EntityName>форма NT-LEG-CC-REP</EntityName>
+  <PhotocopierTitle>Отчёт Агента Внутренних Дел</PhotocopierTitle>
+  <Content><![CDATA[[bold]Форма НТ-КОМ-ЦК-ОТЧ[/bold]
+[head=2]Отчёт Агента Внутренних Дел[/head]
+
+[italic]Дата:-/-/3024[/italic]
+
+Я, (ваше полное имя), как Агент Внутренних Дел, сообщаю: (текст сообщения)
+
+[italic]Место для печатей[/italic]]]></Content>
+</Form>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <!-- Needed for NotNullableFlagAnalyzer. -->
+    <Compile Include="..\Robust.Shared\Analyzers\NotNullableFlagAttribute.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Needed for FriendAnalyzer. -->
+    <Compile Include="..\Robust.Shared\Analyzers\AccessAttribute.cs" />
+    <Compile Include="..\Robust.Shared\Analyzers\AccessPermissions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Needed for PreferGenericVariantAnalyzer. -->
+    <Compile Include="..\Robust.Shared\Analyzers\PreferGenericVariantAttribute.cs" />
+  </ItemGroup>
+
+  <Import Project="../Robust.Roslyn.Shared/Robust.Roslyn.Shared.props" />
+
+  <PropertyGroup>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+</Project>
